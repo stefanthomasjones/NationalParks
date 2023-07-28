@@ -39,3 +39,43 @@
   
    
   }
+:root {
+    --bkg: #eeebe1;
+    --grey: #4d4d4d;
+    --red:#be1622;
+    --brown:rgb(76, 62, 52);
+    --green:#9bc8ab;
+    --orange: #f0814f; 
+  }
+body {
+    background-color: var(--bkg);
+}
+p {
+  
+    font-family: 'Archivo', sans-serif; 
+  }
+h1 {
+    color: var(--brown);
+    font-family: 'Pragati Narrow', sans-serif;
+    
+  }
+
+a {
+   
+    text-decoration: none;
+    font-family: 'Archivo', sans-serif; 
+  }
+  
+  li{
+    list-style-type: none;
+  }
+  .introText{
+    font-weight: 700;
+    font-size: 24px;
+
+ }
+ h2{
+    font-family: 'Archivo', sans-serif; 
+    color:var(--grey);
+    font-size: xx-large;
+     }
