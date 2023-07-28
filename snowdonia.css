@@ -1,0 +1,224 @@
+
+.box-top{
+    margin: auto 0;
+    margin-top: 35px;
+    max-width: 100%;
+ 
+}
+.box-caption {
+    position: absolute;
+    word-break: break-word;
+   padding: 10px;
+   
+   max-width:75%;
+   
+  }
+  .box-flex-top{
+display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+  padding: .5rem;
+  text-align: center;
+  width: 100%;
+  
+  }
+ .caption {
+    margin: 0px;
+    letter-spacing: 10px;
+    font-size: xx-large;
+   padding: 10px;
+    color:white;
+    line-height: 40px;
+    background: rgba(76, 62, 52, 0.7);
+    border-radius:5px ;
+   
+  }
+ 
+
+  .box-img{
+     max-width: 90%;
+  }
+  .intro-text{
+    display: flex;
+    text-align: center;
+    font-size: 1.8em;
+    letter-spacing: 2px;
+    max-width: 70%;
+    color: var(--grey);
+    line-height: 45px;
+    font-weight: 900;
+    
+   
+  }
+  .intro-text-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: -20px;
+    max-width: 100%;
+   
+  }
+  .intro-link {
+    text-transform: uppercase;
+  }
+  .into-text a{
+    color: var(--red);
+    
+   
+  }
+  .intro-text a:hover{
+    text-decoration: underline;
+    text-underline-offset:6px;
+    
+    
+  }
+  .intro-text a:visited{
+    color: var(--red);
+  }
+
+  .flex-con{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+   
+  }
+  .flex-con > *{
+    display: flex;
+    border-radius: 5px;
+    width: calc(100%/3.5);
+    max-height: 670px;
+    background-color: whitesmoke;
+    padding: 15px;
+    flex-flow: column;
+    font-family: sans-serif; 
+   
+  }
+  .flex-con img{
+    display: block;
+   width: 100%;
+   max-width: 500px; /*actual image width*/
+   height: auto; /* maintain aspect ratio*/
+   margin: auto; /*optional centering of image*/
+  }
+  .textH{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    letter-spacing: 3px;
+    font-size: 1.3em;
+    font-family: 'Archivo', sans-serif; 
+    
+
+  }
+  .text3{
+    
+  }
+  
+.click{
+    margin-top: 20px;
+    color: #003c72;
+   text-align: right;
+}
+
+.click a:visited {
+    color: #003c72;
+    
+}
+.click a{
+    text-underline-offset: 5px;
+    text-decoration: underline;
+}
+.click a:hover{
+    text-underline-offset: 7px;
+    opacity: 0.8;
+}
+.imgratio{
+    width: 100%; /*or whatever you choose*/
+    margin: auto;
+}
+
+.flex-con > *:hover{
+    transition: all .7s linear;
+    box-shadow: 5px 6px rgba(76, 62, 52, 0.5);
+}
+
+.flex-con2{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+    margin-top: 25px;
+    padding: 15px;
+ 
+}
+ .boxedtext2, .boxedtext3, .boxedtext4, .boxedtext5, .boxedtext6{
+    border-top: 2px solid #c4c4c4; 
+    
+}
+.flexbox1{
+margin-right: 10px;
+padding: 20px;
+}
+.flexbox2{
+    margin-left: 10px;
+    padding: 10px;
+    }
+.flexbox1 p {
+    max-width: 80%;
+    font-family: sans-serif; 
+   
+}
+.flexbox2 p {
+    margin-top: -15px;
+    padding: 0px;
+    font-family: sans-serif; 
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: var(--brown);
+}
+footer{
+    border-radius: 5px;
+}
+  @media only screen and (max-width: 800px)  {
+    .intro-text{
+     font-size: 1rem;
+     transition: all .7s linear;
+     max-width: 90%;
+     line-height: 25px;
+     margin-top: 25px;
+    }
+    .intro-text-con{
+        margin-top: -15px;
+    }
+    .box-caption {
+        max-width: 75%;
+        font-size: 0.3em;
+    }
+.caption{
+    font-size: small;
+    letter-spacing: 4px;
+    line-height: 20px;
+   
+}
+.flex-con > *{
+  margin-top: 10px;
+    width: 90%;
+   
+    
+  }
+  .flex-con2{
+    flex-wrap: wrap;
+  }
+}
+
+
+    
+
+   
